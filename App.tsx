@@ -18,7 +18,7 @@ const users = [
   },
 ];
 
-const months = [...Array.from({ length: 13 }, (_, i) => i)];
+const months = [...Array.from({ length: 12 }, (_, i) => i + 1)];
 export default function App() {
   const [selectedUserId, setSelectedUserId] = useState(0);
   const [selectedMonth, setSelectedMonth] = useState(0);
